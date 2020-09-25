@@ -1,0 +1,82 @@
+.navbar-brand {
+    font-size: 35px;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-expand-lg {
+    margin-bottom: 0;
+    background-color: rgb(184, 173, 153);
+}
+
+div {
+    display: block;
+}
+
+.navbar-nav{
+    display: inline;
+    
+}
+
+li {
+    display: list-item;
+    float: left;
+}
+
+.jumbotron {
+    position: relative;
+    width: 100%;
+    height: 510px;
+    padding: 0;
+    box-shadow: rgb(219, 215, 215);
+    margin-bottom: 5px;
+}
+
+.background-image {
+    height: 100%;
+    background-size: cover;
+    background-image: url(../public/images/lepaper.jpg);
+}
+
+.caption {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+}
+
+.caption h1 {
+    color: rgb(196, 70, 70);
+    font-size: 85px;
+   
+}
+
+.caption h3 {
+    color: rgb(196, 70, 70);
+    font-size: 40px;
+    
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: auto;
+    opacity: 0.6;
+    background: rgb(231, 223, 223);
+    margin-top: 78px;
+    height: 625px;
+}
+
+.container p {
+    position: absolute;
+    
+}
+
+.footer {
+    background-color: rgb(184, 173, 153);
+}
